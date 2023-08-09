@@ -4,9 +4,9 @@ from threading import Thread, active_count
 from auto_proxy import Proxy
 from telegram import Api
 
-THREADS = 400
+THREADS = 800
 logo = '''
-                ~ Telegram Auto Views V1 ~
+                ~ Telegram Auto Views V2 ~
      ~ https://github.com/Hemanthveera02/Hemanthveera02 ~
               ~ telegram channel:@tricks077 ~
                ~username:@HemanthVeera077~
@@ -27,7 +27,7 @@ def start():
     threads = []
     auto.init()
     for proxy_type, proxy in auto.proxies:
-        while active_count() > THREADS: swait(0.05)
+        while active_count() > THREADS: swait(0.03)
         thread = Thread(target=api.send_view, args=(proxy, proxy_type))
         threads.append(thread)
         thread.start()
