@@ -18,4 +18,12 @@ cd telegram-views
 ```
 pip install -r requirements.txt
 ```
+https://t.me/cyberwar77/4
+
+# Auto Scraping Mode ( Auto Proxy "PROXYLESS" )
+# This mode scrape proxies automatically from many sources
+# You can update the sources from the auto dir
+# This mode run forever it auto resecrap proxyes when the first loop done
+
+python cyberwar77.py --mode auto --channel cyberwar77 --post 4
 
