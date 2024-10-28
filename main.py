@@ -6,10 +6,10 @@ from telegram import Api
 
 THREADS = 800
 logo = '''
-                ~ Telegram Auto Views V2 ~
+                ~ Telegram Auto Views V5 ~
      ~ https://github.com/Hemanthveera02/Hemanthveera02 ~
-              ~ telegram channel:@tricks077 ~
-               ~username:@HemanthVeera077~
+              ~ telegram channel:@cyberwar77 ~
+  ~youtubelink : https://youtube.com/@cyberwar-j8m?si=vBQVodD6L2YG_vJ-~
 '''
 
 print(logo)
