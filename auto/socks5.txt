@@ -2446,3 +2446,4 @@ https://raw.githubusercontent.com/AGDDoS/AGProxy/master/proxies/socks5.txt
 27.154.32.94:10800
 216.173.76.88:6715
 104.207.40.21:3128
+https://rcloak.com/api/proxies/raw?protocol=socks5
